@@ -1,0 +1,109 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+
+\title{Hello World}
+\author{Hilmi Öztürk}
+\date{July 24, 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Getting Started}
+\textbf{Hello World!} Today I am learning  \sffamily{LATEX}. \sffamily{LATEX} is a great program for writing math. I can write in
+line match such as \(a^2 + b^2 = c^2\). I can also give equations their own space
+
+\hfill\(    \gamma^2 +  \theta^2 = w^2\)    \hfill      (1)
+
+"Maxvell's equations" are named for James Clark Maxvell and are as follow:
+
+$\vec{\nabla}.\vec{E}=\frac{\rho}{\epsilon_0}$   \hfill          Gauss's Law     (2)
+
+$\vec{\nabla}.\vec{B}=0$ \hfill     Gauss's Law for Magnetism  (3)
+
+$\vec{\nabla}.\vec{E}= -\frac{\partial\vec{B}}{\partial{t}}$     \hfill      Faraday's Law of Induction     (4)
+
+$\vec{\nabla}.\vec{B}=\mu_0(\epsilon_0\frac{\partial\vec{E}}{\partial{t}}+\vec{J})$   \hfill  Ampere's Circutial Law    (5)     \\
+
+Equations {\color{blue}2, 3, 4} and {\color{blue}5} are some of the most important in Physics.
+
+\section{what about Matrix Equations?}
+\begin{gather*}
+\begin{pmatrix}
+    a_{11} & a_{12} & \cdots & a_{1n} \\    % \cdots=yatay üç nokta (column)
+    a_{21} & a_{22} & \cdots & a_{2n} \\    % \ddots=çapraz üç nokta (diagonal)
+    \vdots & \vdots & \ddots & \vdots \\    % \vdots=dikey üç nokta (vertical)
+    a_{n1} & a_{n2} & \cdots & a_{nn} 
+\end{pmatrix}
+\begin{bmatrix}
+    \ v_{1} \\[0.3em]
+    \ v_{2} \\[0.3em]
+    \vdots \\[0.3em]
+    v_{n}
+\end{bmatrix} = 
+\begin{matrix}
+    \ w_{1} \\[0.38em]
+    \ w_{2} \\[0.3em]
+    \vdots \\[0.3em]
+w_{n}
+\end{matrix}
+\end{gather*}
+
+\clearpage
+\[\int\int\limits_V\int f(x,y,z)dv = F\]
+
+\[\frac{dr}{dy}=x'=\lim_{h\rightarrow 0}\frac{f(x+h)-f(x)}{h}\]
+$$|x|=
+\begin{cases}
+    -x,\hspace{0.5cm}if x<0\\
+    x,\hspace{0.75cm} if x\geq 0
+\end{cases}$$
+
+
+\[F(x)=A_0+\sum_{n=1}^{N}\left[A_n cos \left(\frac{2\pi nr}{P}\right)+B_n sin\left(\frac{2\pi nr}{P}\right) \right]\]
+
+\[ \sum_{n} \frac{1}{n^s} = \prod_p \frac{1}{1 - p^{-s}} \]
+
+\[m\ddot{x}+c\dot{x}+kx=F_{0}\sin(2\pi ft)\]
+
+\begin{equation}
+\begin{split}
+f(x)& =x^2+3x+5x^2+8+6x\\ 
+    &= 6x^2+9x+8\\
+    &=x(6x+9)+8
+\end{split}
+\end{equation}
+
+\[X=\frac{F_0}{k} \frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}}\]
+
+\[G_\mu_\nu\equiv R_\mu_nu - \frac{1}{2}Rg_\mu_\nu=\frac{8\pi G}{c^4}T_\mu_\nu\]
+
+\[6CO_2 + 6H_2O \rightarrow C_6H_1_2O_6 + 6O_2\]
+
+\[SO_4^2- + Ba^2^+ \rightarrow BaSO_4\]
+
+\begin{gather*}
+\begin{pmatrix}
+    a_{11} & a_{12} & \cdots & a_{1n} \\ 
+    a_{21} & a_{22} & \cdots & a_{2n} \\    
+    \vdots & \vdots & \ddots & \vdots \\    
+    a_{n1} & a_{n2} & \cdots & a_{nn} 
+\end{pmatrix}\begin{pmatrix}
+    \ v_{1} \\[0.3em]
+    \ v_{2} \\[0.3em]
+    \vdots \\[0.3em]
+    v_{n}
+\end{pmatrix} = \begin{pmatrix}
+    \ w_{1} \\[0.38em]
+    \ w_{2} \\[0.3em]
+    \vdots \\[0.3em]
+w_{n}    
+\end{pmatrix}
+\end{gather*}
+\[\mathbf{\frac{\partial u}{\partial t}+ (u.\nabla) u-\nu\nabla^2(u)-\nabla h }\]
+\[\alpha A \beta B\gamma \Gamma\delta \Delta\pi \pi \omega \Omega\]
+
+\end{document}
